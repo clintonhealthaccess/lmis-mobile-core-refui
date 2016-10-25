@@ -1,4 +1,4 @@
-package org.openlmis.lmismobilecorerefui;
+package org.openlmis.mobile.refui;
 
 import org.junit.Test;
 

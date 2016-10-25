@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.openlmis.lmismobilecorerefui">
+    package="org.openlmis.mobile">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ItemListActivity"
+            android:name="org.openlmis.mobile.refui.ItemListActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,13 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ItemDetailActivity"
+            android:name="org.openlmis.mobile.refui.ItemDetailActivity"
             android:label="@string/title_item_detail"
-            android:parentActivityName=".ItemListActivity"
+            android:parentActivityName="org.openlmis.mobile.refui.ItemListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.openlmis.lmismobilecorerefui.ItemListActivity" />
+                android:value="org.openlmis.mobile.refui.ItemListActivity" />
         </activity>
     </application>
 

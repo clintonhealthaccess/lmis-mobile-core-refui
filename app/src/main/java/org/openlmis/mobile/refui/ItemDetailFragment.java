@@ -1,4 +1,4 @@
-package org.openlmis.lmismobilecorerefui;
+package org.openlmis.mobile.refui;
 
 import android.app.Activity;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -9,7 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.openlmis.lmismobilecorerefui.dummy.DummyContent;
+import org.openlmis.mobile.R;
+import org.openlmis.mobile.refui.dummy.DummyContent;
 
 /**
  * A fragment representing a single Item detail screen.

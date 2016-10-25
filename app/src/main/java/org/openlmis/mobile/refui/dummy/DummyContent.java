@@ -1,4 +1,4 @@
-package org.openlmis.lmismobilecorerefui.dummy;
+package org.openlmis.mobile.refui.dummy;
 
 import java.util.ArrayList;
 import java.util.HashMap;

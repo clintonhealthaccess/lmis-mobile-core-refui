@@ -1,4 +1,4 @@
-package org.openlmis.lmismobilecorerefui;
+package org.openlmis.mobile.refui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,7 +15,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import org.openlmis.lmismobilecorerefui.dummy.DummyContent;
+import org.openlmis.mobile.R;
+import org.openlmis.mobile.refui.dummy.DummyContent;
 
 import java.util.List;
 
