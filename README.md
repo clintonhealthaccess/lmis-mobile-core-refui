@@ -8,7 +8,7 @@ Use this app to discover what lmis mobile core enables you to do!
 
 The easiest way to install the app is to download directly from: http://52.78.205.75:8081/app-release.apk
 
-But if you want to keep up with the latest distribution and receive updates, you'll need to:
+But if you want to keep up with the **latest** distribution and receive **updates**, you'll need to:
 
 1. Install f-droid from: https://f-droid.org/
 2. Add http://52.78.205.75:8081 as a repository
@@ -32,6 +32,6 @@ Refer to https://github.com/clintonhealthaccess/lmis-mobile-core/wiki/User-guide
 
 TBD(version?)
 
-# Distribute
+# Distribute your app
 
-If you want to distribute your app similarly to how this app is distributed, please refer to https://github.com/clintonhealthaccess/lmis-mobile-core/wiki/Jenkins#ref-ui-publish-to-fdroid and adjust the parameters for your own needs.
+If you want to distribute your app similarly to how this app is distributed, please refer to https://github.com/clintonhealthaccess/lmis-mobile-core/wiki/Jenkins#ref-ui-publish-to-fdroid and **adjust the parameters** for your own needs.
