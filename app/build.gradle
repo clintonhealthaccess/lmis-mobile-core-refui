@@ -26,7 +26,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 24
         versionCode((new Date().getTime() / 1000).toInteger())
-        versionName new Date().format("yyyyMMdd-HH:mm:ss.SSS", TimeZone.default)
+        versionName 'date +%Y.%m.%d-%H:%M:%S'.execute().text.trim()
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
