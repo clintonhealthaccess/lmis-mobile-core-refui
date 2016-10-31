@@ -1,15 +1,14 @@
 package org.openlmis.mobile.refui;
 
 import android.app.Activity;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.openlmis.mobile.R;
 import org.openlmis.mobile.refui.dummy.DummyContent;
 
 /**
