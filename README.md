@@ -22,12 +22,6 @@ git clone https://github.com/clintonhealthaccess/lmis-mobile-core-refui.git
 
 Clone the code and read code snippets of how lmis mobile core can be leveraged.
 
-# Build your own mobile app
-
-You can either start anew or fork this repo.
-
-Refer to https://github.com/clintonhealthaccess/lmis-mobile-core/wiki/User-guide for how to use lmis mobile core APIs.
-
 # Set up your server
 
 ```
@@ -41,6 +35,12 @@ docker run -d -p 8080:8080 -v /path/of/your/property/files:/usr/local/tomcat/web
 Take this as template: https://github.com/clintonhealthaccess/openlmis-devops/tree/master/deployment/configuration/files/env/prod
 
 Change configuration as you need, most importantly, fill in the DB credentials.
+
+# Build your own mobile app
+
+You can either start anew or fork this repo.
+
+Refer to https://github.com/clintonhealthaccess/lmis-mobile-core/wiki/User-guide for how to use lmis mobile core APIs.
 
 # Distribute your app
 
