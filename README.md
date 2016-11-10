@@ -25,16 +25,16 @@ Clone the code and read code snippets of how lmis mobile core can be leveraged.
 # Set up your server
 
 ```
-
-docker run -d -p 8080:8080 -v /path/of/your/property/files:/usr/local/tomcat/webapps/extra/properties cuipengfei/openlmis2
-
+docker run -d -p 8080:8080 --env-file /path/to/env/file lmis/openlmis2server
 ```
 
-*"/path/of/your/property/files"* need to be replaced with an actual path that contains your specific property files.
-
-Take this as template: https://github.com/clintonhealthaccess/openlmis-devops/tree/master/deployment/configuration/files/env/prod
-
-Change configuration as you need, most importantly, fill in the DB credentials.
+*/path/to/env/file* need to be replaced with path of an actual file that contains your DB credentials. For example:
+```
+POSTGRES_HOST=some_address
+POSTGRES_DB=open_lmis
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=some_password
+```
 
 # Build your own mobile app
 
