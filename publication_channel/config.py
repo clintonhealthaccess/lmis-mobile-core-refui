@@ -35,7 +35,7 @@ repo_url = "http://52.78.205.75:8081/"
 repo_name = "LMIS Ref UI FDroid Repo"
 repo_icon = "fdroid-icon.png"
 repo_description = """
-repo description
+LMIS Ref UI FDroid Repo
 """
 
 # As above, but for the archive repo.
@@ -57,7 +57,7 @@ The repository of older versions of applications from the main demo repository.
 # The key (from the keystore defined below) to be used for signing the
 # repository itself.  This is the same name you would give to keytool or
 # jarsigner using -alias.  (Not needed in an unsigned repository).
-# repo_keyalias = "fdroidrepo"
+repo_keyalias = "393cc2fa07fc"
 
 # The keystore to use for release keys when building. This needs to be
 # somewhere safe and secure, and backed up!  The best way to manage these
@@ -77,12 +77,12 @@ The repository of older versions of applications from the main demo repository.
 # different than the keypass below, it can be OK to store the password in this
 # file for real use.  But in general, sensitive passwords should not be stored
 # in text files!
-# keystorepass = "password1"
+keystorepass = "izryd6LTWHgdVrZvqIJ8NEPBe39/C021sRDngkamX4g="
 
 # The password for keys - the same is used for each auto-generated key as well
 # as for the repository key.  You should not normally store this password in a
 # file since it is a sensitive password.
-# keypass = "password2"
+keypass = "izryd6LTWHgdVrZvqIJ8NEPBe39/C021sRDngkamX4g="
 
 # The distinguished name used for all keys.
 keydname = "CN=Birdman, OU=Cell, O=Alcatraz, L=Alcatraz, S=California, C=US"
@@ -188,3 +188,9 @@ char_limits = {
     'Summary': 50,
     'Description': 1500
 }
+
+repo_keyalias = "393cc2fa07fc"
+
+keystorepass = "izryd6LTWHgdVrZvqIJ8NEPBe39/C021sRDngkamX4g="
+
+keypass = "izryd6LTWHgdVrZvqIJ8NEPBe39/C021sRDngkamX4g="
