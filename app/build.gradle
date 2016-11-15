@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    compile 'org.openlmis.mobile:openlmis-mobile-core:0.0.4.I0'
+    compile 'org.openlmis.mobile:openlmis-mobile-core:0.0.5'
 
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
